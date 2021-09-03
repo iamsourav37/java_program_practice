@@ -12,6 +12,12 @@ public class ProblemEight {
             }
         }
     }
+    {
+        System.out.println("first");
+    }
+    static{
+        System.out.println("static");
+    }
 
     static boolean checkArmstrong(int num){
         int sum = 0;
