@@ -4,14 +4,14 @@ package problem.recursion;
 
 public class Power {
     public static void main(String[] args) {
-        int base = 5;
+        int base = 2;
         int expo = 4;
 
         System.out.println("Result : "+ getPower(base, expo));
     }
 
     static int getPower(int base, int expo){
-       if(expo == 1){
+       if( expo == 0 || expo == 1){
            return base;
        }
        else{
