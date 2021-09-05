@@ -1,6 +1,7 @@
 package test;
 
 
+import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Main {
@@ -8,16 +9,18 @@ public class Main {
 
         Scanner sc = new Scanner(System.in);
 
-        int N = sc.nextInt();
+        String name = sc.nextLine();
+        int age = sc.nextInt();
+        sc.nextLine();
+        String country = sc.nextLine();
 
-        print(N);
+        System.out.println(name + age+ country);
 
 
     }
-    static void print(int n){
-        if(n>0){
-            System.out.println(n);
-            print(n-1);
-        }
-    }
+
 }
+
+
+
+
